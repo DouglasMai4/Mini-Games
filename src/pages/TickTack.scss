@@ -1,0 +1,14 @@
+@import '../assets/css/colors.scss';
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 1rem;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 16px;
+  background-color: $c-primary;
+  aspect-ratio: 1 / 1;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
